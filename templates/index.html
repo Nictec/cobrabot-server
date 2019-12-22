@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+    <section class="home_banner_area">
+		<div class="banner_inner">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="home_left_img">
+							<img class="img-fluid" src="{% static 'img/banner/home-left.png' %}" alt="">
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="banner_content">
+							<h2>
+								Your custom Twitch Bot <br>
+								with public ranks and viewtimes <br>
+                                in the cloud.
+							</h2>
+							<p>
+								(This project is in a early test phase!) <br> CobraBot saves every minute of watchtime and every currency point in the cloud and displays it in a beautiful manner to your viewers.
+							</p>
+							<div class="d-flex align-items-center">
+								<a id="play-home-video" class="video-play-button" href="https://www.youtube.com/watch?v=vParh5wE-tM">
+									<span></span>
+								</a>
+								<div class="watch_video text-uppercase">
+									get started now
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+{% endblock %}
